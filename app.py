@@ -21,7 +21,7 @@ def generate_vacations(vacaciones, limit_vacaciones):
                 "content": prompt,
             }
         ], 
-        max_tokens = limit_vacaciones * 2,
+        max_tokens = limit_vacaciones * 5,
     )
     
     response = response.choices[0].message.content
